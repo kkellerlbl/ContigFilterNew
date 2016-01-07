@@ -1,7 +1,7 @@
-SERVICE = msneddoncontigfilter
-SERVICE_CAPS = MsneddonContigFilter
-SPEC_FILE = MsneddonContigFilter.spec
-URL = https://kbase.us/services/msneddoncontigfilter
+SERVICE = kkellercontigfilter
+SERVICE_CAPS = KkellerContigFilter
+SPEC_FILE = KkellerContigFilter.spec
+URL = https://kbase.us/services/kkellercontigfilter
 DIR = $(shell pwd)
 LIB_DIR = lib
 SCRIPTS_DIR = scripts
