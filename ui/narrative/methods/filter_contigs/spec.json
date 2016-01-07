@@ -2,7 +2,7 @@
 	"ver": "0.0.1",
 	
 	"authors": [
-		"msneddon"
+		"kkeller"
 	],
 	"contact": "help@kbase.us",
 	"visible": true,
@@ -39,7 +39,7 @@
 	"behavior": {
 		"service-mapping": {
 			"url": "",
-			"name": "MsneddonContigFilter",
+			"name": "KkellerContigFilter",
 			"method": "filter_contigs",
 			"input_mapping": [
 				{
