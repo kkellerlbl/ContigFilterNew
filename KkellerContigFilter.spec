@@ -1,9 +1,9 @@
 /*
-A KBase module: MsneddonContigFilter
+A KBase module: KkellerContigFilter
 This sample module contains one small method - count_contigs.
 */
 
-module MsneddonContigFilter {
+module KkellerContigFilter {
 	/*
 	A string representing a ContigSet id.
 	*/
