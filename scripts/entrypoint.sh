@@ -12,7 +12,9 @@ elif [ "${1}" = "test" ] ; then
 elif [ "${1}" = "async" ] ; then
   sh ./scripts/run_async.sh
 elif [ "${1}" = "init" ] ; then
-  echo "Initialize module"
+  echo "Initialize module: copying data"
+  cp -a ./data/* /data/
+  touch /data/__READY__
 elif [ "${1}" = "bash" ] ; then
   bash
 elif [ "${1}" = "report" ] ; then
