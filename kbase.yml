@@ -2,7 +2,7 @@ module-name:
     KkellerContigFilter
 
 module-description:
-    A KBase module
+    Filter contigs of a certain length
 
 service-language:
     python
