@@ -9,6 +9,9 @@ MAINTAINER KBase Developer
 
 # -----------------------------------------
 
+RUN python -c 'for k in range(1,10001): print(str(k)+" this is a log message test this is a log message test")' 
+
+
 COPY ./ /kb/module
 RUN mkdir -p /kb/module/work
 
